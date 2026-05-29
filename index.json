@@ -18,7 +18,13 @@
   "deepbookv3-sdk-flash-loans",
   "deepbookv3-sdk-swaps",
   "deepbookv3-sdk-staking-governance",
-  "deepbookv3-indexer"
+  "deepbookv3-indexer",
+  "deepbook-margin",
+  "deepbook-margin-manager",
+  "deepbook-margin-pool",
+  "deepbook-margin-orders",
+  "deepbook-margin-tpsl",
+  "deepbook-margin-referral"
 ]
 
 

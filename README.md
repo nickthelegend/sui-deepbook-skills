@@ -24,6 +24,13 @@ This package contains skills for Sui DeepBook V3 integration.
 - `deepbookv3-sdk-swaps`: Execute instant AMM-style swaps with or without a BalanceManager using the DeepBook V3 TypeScript SDK.
 - `deepbookv3-sdk-staking-governance`: Stake DEEP, unstake, submit governance proposals, vote, and claim rebates using the DeepBook V3 TypeScript SDK.
 - `deepbookv3-indexer`: Query real-time L2 order books, historical volumes, candlestick charts, and wallet portfolios using the DeepBook V3 Indexer REST API.
+- `deepbook-margin`: High-level overview, architecture design, contract details, risk thresholds, and pool parameters for Sui DeepBook Margin.
+- `deepbook-margin-manager`: Manage the MarginManager shared object, deposit/withdraw collateral, borrow assets, repay debt, calculate risk ratios, and execute liquidations.
+- `deepbook-margin-pool`: Manage the MarginPool shared object, supply/withdraw liquidity, calculate interest rates, configure parameters, and execute maintainer admin functions.
+- `deepbook-margin-orders`: Place, modify, and cancel limit and market orders, reduce debt using reduce-only orders, and handle staking/governance through the MarginManager using the pool_proxy module.
+- `deepbook-margin-tpsl`: Create and manage conditional Take-Profit and Stop-Loss (TPSL) orders on the MarginManager, sorting triggers, and executing orders.
+- `deepbook-margin-referral`: Implement the supply referral system, mint SupplyReferral objects, claim referred fees, and track protocol fee distributions.
+
 
 
 
