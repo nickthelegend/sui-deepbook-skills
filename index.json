@@ -31,7 +31,13 @@
   "deepbook-margin-sdk-orders",
   "deepbook-margin-sdk-maintainer",
   "deepbook-margin-sdk-tpsl",
-  "deepbook-margin-indexer"
+  "deepbook-margin-indexer",
+  "deepbook-predict",
+  "deepbook-predict-manager",
+  "deepbook-predict-market-keys",
+  "deepbook-predict-oracle",
+  "deepbook-predict-vault",
+  "deepbook-predict-registry"
 ]
 
 

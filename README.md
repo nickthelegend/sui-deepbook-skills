@@ -37,6 +37,13 @@ This package contains skills for Sui DeepBook V3 integration.
 - `deepbook-margin-sdk-maintainer`: Configure pool parameters, create margin pools, enable/disable borrow permissions, and withdraw fees using the TypeScript SDK.
 - `deepbook-margin-sdk-tpsl`: Configure and submit Take-Profit and Stop-Loss (TPSL) orders, execute conditional orders as a keeper, and query trigger states using the TypeScript SDK.
 - `deepbook-margin-indexer`: Query margin-specific trade history, borrow/repay events, liquidations, positions, pool metrics, and collateral logs using the DeepBook Margin Indexer REST API.
+- `deepbook-predict`: General overview, network targets, integration workflows, server endpoints, and live event triggers for Sui DeepBook Predict.
+- `deepbook-predict-manager`: Create and manage PredictManager accounts, deposit/withdraw quote assets, and query internal binary and range position quantities.
+- `deepbook-predict-market-keys`: Construct and read binary position MarketKey and vertical range RangeKey identifiers to query PredictManager positions.
+- `deepbook-predict-oracle`: Manage the OracleSVI lifecycle, push high-frequency price updates, push SVI volatility parameters, and resolve market settlements.
+- `deepbook-predict-vault`: Supply liquidity to the shared vault, mint/burn PLP shares, monitor mark-to-market liabilities, and trigger post-settlement matrix compaction.
+- `deepbook-predict-registry`: Register new oracles, manage accepted quote assets, configure pricing spreads, set ask bounds, and pause trading using the registry module.
+
 
 
 
