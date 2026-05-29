@@ -10,7 +10,15 @@
   "deepbookv3-permissionless-pool",
   "deepbookv3-query-the-pool",
   "deepbookv3-referral",
-  "deepbookv3-ewma"
+  "deepbookv3-ewma",
+  "deepbookv3-sdk",
+  "deepbookv3-sdk-balance-manager",
+  "deepbookv3-sdk-pools",
+  "deepbookv3-sdk-orders",
+  "deepbookv3-sdk-flash-loans",
+  "deepbookv3-sdk-swaps",
+  "deepbookv3-sdk-staking-governance",
+  "deepbookv3-indexer"
 ]
 
 

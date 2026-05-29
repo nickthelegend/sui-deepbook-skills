@@ -16,6 +16,15 @@ This package contains skills for Sui DeepBook V3 integration.
 - `deepbookv3-query-the-pool`: Query order book depth, execute dry-run swaps, validate pre-trade parameters, and view balances in DeepBook V3.
 - `deepbookv3-referral`: Mint pool referrals, manage multipliers, associate referrals with BalanceManager, and claim referral fees in DeepBook V3.
 - `deepbookv3-ewma`: Understand and calculate Exponentially Weighted Moving Average (EWMA) Gas Price Penalties for takers in DeepBook V3.
+- `deepbookv3-sdk`: Core installation, client extension setup, constants, and coin maps for the DeepBook V3 TypeScript SDK.
+- `deepbookv3-sdk-balance-manager`: Create, deposit, withdraw, mint caps, generate TradeProofs, and manage referrals for BalanceManagers using the TS SDK.
+- `deepbookv3-sdk-pools`: Query pool state, fetch order book depth, create pools, register DEEP price points, and manage referral payouts using the TS SDK.
+- `deepbookv3-sdk-orders`: Submit, modify, cancel, and settle limit and market orders using the DeepBook V3 TypeScript SDK.
+- `deepbookv3-sdk-flash-loans`: Borrow and repay base or quote assets atomically inside a Programmable Transaction Block (PTB) using the TS SDK.
+- `deepbookv3-sdk-swaps`: Execute instant AMM-style swaps with or without a BalanceManager using the DeepBook V3 TypeScript SDK.
+- `deepbookv3-sdk-staking-governance`: Stake DEEP, unstake, submit governance proposals, vote, and claim rebates using the DeepBook V3 TypeScript SDK.
+- `deepbookv3-indexer`: Query real-time L2 order books, historical volumes, candlestick charts, and wallet portfolios using the DeepBook V3 Indexer REST API.
+
 
 
 
