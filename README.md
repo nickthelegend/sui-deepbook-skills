@@ -30,6 +30,14 @@ This package contains skills for Sui DeepBook V3 integration.
 - `deepbook-margin-orders`: Place, modify, and cancel limit and market orders, reduce debt using reduce-only orders, and handle staking/governance through the MarginManager using the pool_proxy module.
 - `deepbook-margin-tpsl`: Create and manage conditional Take-Profit and Stop-Loss (TPSL) orders on the MarginManager, sorting triggers, and executing orders.
 - `deepbook-margin-referral`: Implement the supply referral system, mint SupplyReferral objects, claim referred fees, and track protocol fee distributions.
+- `deepbook-margin-sdk`: Install, configure, and initialize the DeepBook V3 TypeScript SDK client extension for margin trading.
+- `deepbook-margin-sdk-manager`: Manage margin accounts, deposit collateral, borrow assets, repay debt, and liquidate undercollateralized accounts using the TypeScript SDK.
+- `deepbook-margin-sdk-pool`: Supply assets, withdraw liquidity, manage supplier caps, and query pool metrics using the TypeScript SDK.
+- `deepbook-margin-sdk-orders`: Submit and manage limit, market, and reduce-only orders, withdraw settled funds, stake DEEP, and vote on governance using the TypeScript SDK.
+- `deepbook-margin-sdk-maintainer`: Configure pool parameters, create margin pools, enable/disable borrow permissions, and withdraw fees using the TypeScript SDK.
+- `deepbook-margin-sdk-tpsl`: Configure and submit Take-Profit and Stop-Loss (TPSL) orders, execute conditional orders as a keeper, and query trigger states using the TypeScript SDK.
+- `deepbook-margin-indexer`: Query margin-specific trade history, borrow/repay events, liquidations, positions, pool metrics, and collateral logs using the DeepBook Margin Indexer REST API.
+
 
 
 

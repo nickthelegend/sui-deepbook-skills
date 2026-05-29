@@ -25,7 +25,14 @@ module.exports = {
     "deepbook-margin-pool",
     "deepbook-margin-orders",
     "deepbook-margin-tpsl",
-    "deepbook-margin-referral"
+    "deepbook-margin-referral",
+    "deepbook-margin-sdk",
+    "deepbook-margin-sdk-manager",
+    "deepbook-margin-sdk-pool",
+    "deepbook-margin-sdk-orders",
+    "deepbook-margin-sdk-maintainer",
+    "deepbook-margin-sdk-tpsl",
+    "deepbook-margin-indexer"
   ]
 };
 
