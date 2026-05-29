@@ -1,0 +1,25 @@
+{
+  "name": "@nickthelegend/sui-deepbook-skills",
+  "version": "1.0.0",
+  "description": "Skills for Sui DeepBook V3 integration. Contains hello world skills.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nickthelegend/sui-deepbook-skills"
+  },
+  "keywords": [
+    "sui",
+    "deepbook",
+    "skills",
+    "ai-agents"
+  ],
+  "author": "nickthelegend",
+  "license": "MIT",
+  "files": [
+    "skills",
+    "README.md",
+    "index.js",
+    "index.json"
+  ]
+}
