@@ -1,1 +1,19 @@
-module.exports = { skills: ["deepbook-hello-world"] };
+module.exports = {
+  skills: [
+    "deepbook-hello-world",
+    "DeepBookV3",
+    "deepbookv3-contract-information",
+    "deepbookv3-balance-manager",
+    "deepbookv3-orders",
+    "deepbookv3-flash-loans",
+    "deepbookv3-swaps",
+    "deepbookv3-staking-governance",
+    "deepbookv3-permissionless-pool",
+    "deepbookv3-query-the-pool",
+    "deepbookv3-referral",
+    "deepbookv3-ewma"
+  ]
+};
+
+
+
